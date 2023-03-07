@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+header{
+    margin: 0px 40px 0px 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    position: relative;
+    left: 50%;
+    width: 50vw;
+    transform: translate(-50%);
+}
+
+
