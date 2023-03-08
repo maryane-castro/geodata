@@ -19,5 +19,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('south_america/', include('south_america.urls')),
-    path('europe/', include('europe.urls')),
+    path('', include('europe.urls')),
 ]
+
+

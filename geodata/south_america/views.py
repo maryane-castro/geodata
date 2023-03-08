@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 
 
-def index(resquest):
+def index_america(resquest):
     return render(resquest, 'index_america.html')
 
 

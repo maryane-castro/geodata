@@ -14,3 +14,4 @@ def spain(request):
 
 def portugal(request):
     return render(request, 'portugal.html')
+
