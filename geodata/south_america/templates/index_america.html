@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>South_America</title>
     <style>
         *{
             margin: 0px;
@@ -32,6 +32,10 @@
             color: white;
             margin: 0px 10px 0px 10px;
             
+        }
+
+        header > a:hover{
+            color: rgb(125, 125, 255);
         }
 
         div#img{
@@ -72,7 +76,12 @@
 
         #continente > a{
             color: white;
-            text-decoration: none;
+            text-decoration: underline;
+        }
+
+        #continente > a:hover{
+            color: rgb(110, 110, 110);
+            text-decoration: underline;
         }
 
 
@@ -87,9 +96,9 @@
         <h1>Bem-Vindo a South America</h1>
         <h3>Você pode visitar algum dos paises, vamos lá?</h3>
         
-        <a href="{% url 'france' %}">France</a>
-        <a href="{% url 'portugal' %}">Portugal</a>
-        <a href="{% url 'spain' %}">Spain</a>
+        <a href="{% url 'brazil' %}">Brazil</a>
+        <a href="{% url 'argentina' %}">Argentina</a>
+        
         
     </header>
     <p id="continente" style="text-align: right;"><a href="{% url 'index' %}">EUROPE</a></p>
@@ -102,16 +111,13 @@
         <div id="bloco">
            
             <div class="todos" id="france">
-                <h2><a href="{% url 'france' %}">France</a></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatibus ipsa iste beatae, deleniti enim, obcaecati, perferendis repellat veniam eveniet voluptatem dolorem voluptates? Quasi qui velit recusandae, illo sed possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione aliquid eius autem eos deleniti molestias unde impedit in tenetur saepe obcaecati, ipsam corrupti quae accusantium vitae blanditiis aspernatur ipsum consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut fugiat asperiores, laudantium sint autem similique accusamus impedit architecto, officia a aliquid ab eos vel ex ad voluptas earum dolore iusto.</p>
+                <h2><a href="{% url 'brazil' %}">Brazil</a></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatibus ipsa iste beatae, deleniti enim, obcaecati, perferendis repellat veniam eveniet voluptatem dolorem voluptates? Quasi qui velit recusandae, illo sed possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione aliquid eius autem eos deleniti molestias unde impedit in tenetur saepe obcaecati, ipsam corrupti quae accusantium vitae blanditiis aspernatur ipsum consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut fugiat asperiores, laudantium sint autem similique accusamus impedit architecto, officia a aliquid ab eos vel ex ad voluptas earum dolore iusto. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, sapiente! Est deleniti inventore ab quas assumenda beatae sed adipisci consectetur officia perspiciatis consequuntur soluta et sequi molestiae itaque, autem reprehenderit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos laudantium doloribus repellendus officiis quam voluptas laboriosam vitae dignissimos, illo, libero, quo eveniet exercitationem quis. Delectus voluptatem similique labore expedita ea.</p>
             </div>
-            <div class="todos" id="portugal">
-                <h2><a href="{% url 'portugal' %}">Portugal</a></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatibus ipsa iste beatae, deleniti enim, obcaecati, perferendis repellat veniam eveniet voluptatem dolorem voluptates? Quasi qui velit recusandae, illo sed possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione aliquid eius autem eos deleniti molestias unde impedit in tenetur saepe obcaecati, ipsam corrupti quae accusantium vitae blanditiis aspernatur ipsum consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut fugiat asperiores, laudantium sint autem similique accusamus impedit architecto, officia a aliquid ab eos vel ex ad voluptas earum dolore iusto.</p>
-            </div>
+           
             <div class="todos" id="spain">
-                <h2><a href="{% url 'spain' %}">Spain</a></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatibus ipsa iste beatae, deleniti enim, obcaecati, perferendis repellat veniam eveniet voluptatem dolorem voluptates? Quasi qui velit recusandae, illo sed possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione aliquid eius autem eos deleniti molestias unde impedit in tenetur saepe obcaecati, ipsam corrupti quae accusantium vitae blanditiis aspernatur ipsum consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut fugiat asperiores, laudantium sint autem similique accusamus impedit architecto, officia a aliquid ab eos vel ex ad voluptas earum dolore iusto.</p>
+                <h2><a href="{% url 'argentina' %}">Argentina</a></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatibus ipsa iste beatae, deleniti enim, obcaecati, perferendis repellat veniam eveniet voluptatem dolorem voluptates? Quasi qui velit recusandae, illo sed possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione aliquid eius autem eos deleniti molestias unde impedit in tenetur saepe obcaecati, ipsam corrupti quae accusantium vitae blanditiis aspernatur ipsum consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut fugiat asperiores, laudantium sint autem similique accusamus impedit architecto, officia a aliquid ab eos vel ex ad voluptas earum dolore iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quo possimus quae voluptatem. Commodi quod minima, nisi at unde consectetur est saepe rerum aut et, quisquam amet quia consequuntur ipsum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, obcaecati quaerat. Ea totam debitis expedita sint, suscipit quae. Quia aspernatur suscipit architecto dicta laudantium, inventore dolorem impedit eligendi eveniet reiciendis.</p>
             </div>
 
         </div>
